@@ -377,5 +377,9 @@ def post_to_file(string, filename='tournament.txt', directory=''):
  
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
+<<<<<<< HEAD
     scores, moves, reports = main_play([jacob, jacob, derek, derek])   
+=======
+    scores, moves, reports = main_play([austin, ben, braeden, brayden, caleb, chase, cole, derek, ethan, haley, jacob, jared, jessiria, joseph, kyle, maxwell, merik, morgan, sam, shane, spencer, zachary])   
+>>>>>>> ca50787dbe2af453815dbbcf0e440b5871d8f843
     section0, section1, section2, section3 = reports
