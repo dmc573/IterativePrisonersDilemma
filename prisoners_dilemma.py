@@ -39,11 +39,11 @@ import example8
 import austin, ben, braeden, brayden, caleb, chase, cole
 import derek, ethan, haley, jacob, jared, jessiria, joseph
 import kyle, maxwell, merik, morgan, sam, shane, spencer, zachary
-import pyle
+import pyle, braeden1, braeden2, worm1, worm2, worm3, worm4, worm5, bird
 betray = example1
 collude = example0
 
-modules = [example0, example1, example2, example3, example4, example5, example6, example7, example8, austin, ben, braeden, brayden, caleb, chase, cole, derek, ethan, haley, jacob, jared, jessiria, joseph, kyle, maxwell, merik, morgan, sam, shane, spencer, zachary, pyle]
+modules = [example0, example1, example2, example3, example4, example5, example6, example7, example8, austin, ben, braeden, brayden, caleb, chase, cole, derek, ethan, haley, jacob, jared, jessiria, joseph, kyle, maxwell, merik, morgan, sam, shane, spencer, zachary, pyle, braeden1, braeden2, worm1, worm2, worm3, bird]
 for module in modules:
     reload(module)
     print ('reloaded',module)
@@ -379,10 +379,14 @@ def post_to_file(string, filename='tournament.txt', directory=''):
 ### Call main_play() if this file is executed
 if __name__ == '__main__':
 <<<<<<< HEAD
+<<<<<<< HEAD
     scores, moves, reports = main_play([austin, ben, braeden, brayden, caleb, chase, cole, derek, ethan, haley, jacob, jared, jessiria, joseph, kyle, maxwell, merik, morgan, sam, shane, zachary, pyle])   
     section0, section1, section2, section3 = reports
 =======
     scores, moves, reports = main_play([austin, ben, braeden, brayden, caleb, chase, cole, derek, ethan, haley, jacob, jared, jessiria, joseph, kyle, maxwell, merik, morgan, pyle, sam, shane, spencer, zachary])   
+=======
+    scores, moves, reports = main_play([austin, ben, braeden, braeden1, braeden2, brayden, caleb, chase, cole, derek, ethan, haley, jacob, jared, jessiria, joseph, kyle, maxwell, merik, morgan, sam, shane, zachary, pyle, worm1, worm2, worm3, worm4, worm5, bird])   
+>>>>>>> 305bd861e9ecadc5ad5cbc1972c2f24955d92e34
     section0, section1, section2, section3 = reports 
 
 >>>>>>> 2a05a1f1e9bd9b91f24b16d8bb247066af07455a
